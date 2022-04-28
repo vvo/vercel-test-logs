@@ -13,15 +13,17 @@ const nextConfig = {
         destination: "https://google.com",
         permanent: true,
       },
+    ];
+  },
+  async rewrites() {
+    return [
       {
         source: "/rewrite",
         destination: "/",
-        permanent: true,
       },
       {
         source: "/external-rewrite",
         destination: "https://google.com",
-        permanent: true,
       },
     ];
   },
