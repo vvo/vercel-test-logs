@@ -8,6 +8,21 @@ const nextConfig = {
         destination: "/",
         permanent: true,
       },
+      {
+        source: "/external-redirect",
+        destination: "https://google.com",
+        permanent: true,
+      },
+      {
+        source: "/rewrite",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/external-rewrite",
+        destination: "https://google.com",
+        permanent: true,
+      },
     ];
   },
 };
