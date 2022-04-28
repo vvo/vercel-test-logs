@@ -6,10 +6,12 @@ const nextConfig = {
       {
         source: "/redirect",
         destination: "/",
+        permanent: true,
       },
       {
         source: "/external-redirect",
         destination: "https://google.com",
+        permanent: true,
       },
     ];
   },
