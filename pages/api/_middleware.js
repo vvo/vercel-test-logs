@@ -4,7 +4,7 @@ export async function middleware() {
   console.log("Inside middleware hello");
   console.log("Inside middleware 2");
   await new Promise(function (resolve) {
-    setTimeout(resolve, 1500);
+    setTimeout(resolve, 250);
   });
   return NextResponse.next();
 }
